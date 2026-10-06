@@ -1,7 +1,14 @@
-````markdown
 # Système de présence par empreinte digitale
 
 Architecture ESP32, R503 (JM-101B), MQTT (HiveMQ Cloud), application mobile MIT App Inventor
+
+**Auteurs :** Jean-Luc EUSEBIO et Peace Fiacre EGOUDJOBI
+
+**Superviseurs :** Maurel BONOU-DAH et Judicael ADIKPETO
+
+**Contexte :** Projet réalisé dans le cadre d'un stage au sein de Tekbot Robotics
+
+
 
 ## 1. Objectif du projet
 
@@ -285,6 +292,3 @@ Statut : l'ensemble de ces tests, de bout en bout, a été validé avec succès.
 - inadaptation à une gestion multi-salles ou à grande échelle sans évolution de l'architecture
 
 Évolution proposée : faire cohabiter cette application mobile de pilotage local avec un serveur central (par exemple une API REST, ou un client MQTT côté serveur abonné aux mêmes topics) qui recevrait également les événements de présence, afin de centraliser les données de plusieurs salles ou lecteurs. L'application MIT App Inventor pourrait alors être conservée comme outil de gestion rapide et local, en complément d'une solution serveur plus complète.
-````
-
-
